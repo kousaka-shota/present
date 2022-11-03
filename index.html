@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+  <div id="spread"></div>
+  <div class="square"></div>  
+  <h1 id="greeting">こんにちは！</h1>
+
+  <ul class="accordion-area">
+    <li><!--li ~ /li までが一つのアコーディオン-->
+      <section>
+      <h3 class="title">取り組んだこと</h3>
+      <div class="box">
+      <ul>
+        <li>
+          自動でデータをダウンロードできるツールを作成
+        </li>
+        <li>
+          Chrome拡張を用いて作成しました
+        </li>
+      </ul>
+      </div>
+      </section>
+      </li>
+    <li>
+    <section>
+    <h3 class="title">詳細</h3>
+    <div class="box">
+    <div class="sentence">・取得したい期間を選択します。</div>
+    <img class="screen" src="./image/拡張機能top.jpg" alt="">
+
+    <div class="dot">・</div>
+    <div class="dot">・</div>
+    <div class="dot">・</div>
+    <div class="dot">・</div>
+
+    <div class="sentence" >・指定した期間を自動入力</div>
+    <img class="screen" src="./image/カレンダー画面.jpg" alt="">
+    
+    <div class="sentence">・ダウンロード完了！</div>
+    <img class="screen" src="./image/ダウンロード完了画面.jpg" alt="">
+    </div>
+    </section>
+    </li>
+    <li><!--li ~ /li までが一つのアコーディオン-->
+      <section>
+      <h3 class="title">苦労した事</h3>
+      <div class="box">
+      <p>選択した日付を取得し、それを基に画面操作</p>
+      </div>
+      </section>
+      </li>
+    
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
