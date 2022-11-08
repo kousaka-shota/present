@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <div id="spread"></div>
   <div class="square"></div>  
   <h1 id="greeting">こんにちは！</h1>
@@ -21,10 +22,7 @@
       <div class="box">
       <ul>
         <li>
-          自動でデータをダウンロードできるツールを作成
-        </li>
-        <li>
-          Chrome拡張を用いて作成しました
+          あるサイトからデータを自動ダウンロードできるツールを作成（Chrome拡張）
         </li>
       </ul>
       </div>
@@ -34,8 +32,11 @@
     <section>
     <h3 class="title">詳細</h3>
     <div class="box">
-    <div class="sentence">・取得したい期間を選択します。</div>
-    <img class="screen" src="./image/拡張機能top.jpg" alt="">
+      <div class="sentence"> <div id="aaa">・取得したい期間を選択します。</div></div>
+      <img class="screen" src="./image/ボカシ_top.jpg" alt="">
+
+    <div class="sentence">・ダッシュボードをクリック</div>
+    <img id = "screen" src="./image/senni.jpg" alt="">
 
     <div class="dot">・</div>
     <div class="dot">・</div>
@@ -43,10 +44,10 @@
     <div class="dot">・</div>
 
     <div class="sentence" >・指定した期間を自動入力</div>
-    <img class="screen" src="./image/カレンダー画面.jpg" alt="">
+    <img class="screen" src="./image/ぼかし_calender.jpg" alt="">
     
     <div class="sentence">・ダウンロード完了！</div>
-    <img class="screen" src="./image/ダウンロード完了画面.jpg" alt="">
+    <img class="screen" src="./image/ぼかし_ok.jpg" alt="">
     </div>
     </section>
     </li>
@@ -54,14 +55,24 @@
       <section>
       <h3 class="title">苦労した事</h3>
       <div class="box">
-      <p>選択した日付を取得し、それを基に画面操作</p>
+        <ul>
+      <li>選択した日付を入力するところ</li>
+    </ul>
+      <img class="kurou" src="./image/kurou_top.jpg" alt=""><img class="kurou" src="./image/kurou_calender.jpg" alt="">
       </div>
       </section>
       </li>
     
     </ul>
+
+    <div class="kusudama">
+    　　　　　　　　　　　　　　　　　         　　　　　　　　<div id="kusudamaLeft">くす</div><div id="kusudamaRight">玉</div>
+
+<div class="confetti"></div>
+  </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://kousaka-shota.github.io/present/script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
