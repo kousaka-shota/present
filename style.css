@@ -1,7 +1,7 @@
 /* 水玉 */
 .square {
     
-    margin-left:350px ;
+    margin-left:50px ;
     height: 200px;
     width: 200px;
     background: #0bd;
@@ -126,7 +126,7 @@ h1 {
 }
 
 .kusudama{
-    padding:20px 0px 0px 500px ;
+    padding:20px 0px 0px 250px ;
     text-align: center;
     display: flex;    
 }
