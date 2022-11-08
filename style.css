@@ -1,7 +1,7 @@
 /* 水玉 */
 .square {
-    position: relative;
     
+    margin-left:350px ;
     height: 200px;
     width: 200px;
     background: #0bd;
@@ -10,6 +10,7 @@ body {
     padding: 2rem;
 }
 h1 {
+    padding-left: 320px;
     
     font-size: 4rem;
     position: absolute;
@@ -125,6 +126,8 @@ h1 {
 }
 
 .kusudama{
+    padding:20px 0px 0px 500px ;
+    text-align: center;
     display: flex;    
 }
 
@@ -161,11 +164,6 @@ h1 {
     transform-origin:top;
     transform: rotate(-70deg);
     background-color: gold;
-}
-
-#ok.open,
-#ng.open{
-    display: none;
 }
 
 
