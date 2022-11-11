@@ -169,13 +169,13 @@ h1 {
 
 
 .confetti {
-    position: absolute;
-top:680px;
-left: 400px;
+    /* position: absolute; */
+    top:680px;
+    left: 400px;
     border-radius: 6px;
     /* background: #000; */
     width: 250px;
-    height: 200px;
+    height: 400px;
   }
   
   .confetti > span {
