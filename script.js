@@ -35,12 +35,16 @@ document.querySelector(".kusudama").addEventListener("click",function(){
 	}else{
 		this.children[0].classList.add("open");
 		this.children[1].classList.add("open");
+		audio()
 		start();
 	}
 	
 })
 
-
+function audio() {
+    document.getElementById('btn_audio').currentTime = 0; //連続クリックに対応
+    document.getElementById('btn_audio').play(); //クリックしたら音を再生
+}
 
 //ページが読み込まれた際にopenクラスをつけ、openがついていたら開く動作※不必要なら下記全て削除
 $(window).on('load', function(){
